@@ -1,0 +1,86 @@
+main {
+  height: 260px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://www.advancetesting.com/wp-content/uploads/2020/01/Petrographer-performing-Hardened-Air-Void-Content-scaled-e1580394210714.jpg);
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+#learnMoreBtn {
+  text-transform: uppercase;
+  background-color: rgb(237, 91, 37);
+  color: white;
+  padding: 15px 30px;
+  border: none;
+}
+
+h1 {
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(30, 54, 88, 0.4);
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.main-inner {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#learnMoreBtn {
+  width: fit-content;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(30, 54, 88);
+  align-items: center;
+  padding: 20px;
+}
+
+.construction-h2 {
+  text-transform: uppercase;
+  color: white;
+  padding: 0;
+  margin: 0;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.divider-text-div {
+  text-transform: uppercase;
+  display: flex;
+  color: white;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.our-promise-h2 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.chevron-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chevron-wrapper > div {
+  display: flex; 
+  align-items: center;
+  gap: 10px;
+}
